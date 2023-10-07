@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>TP INTEGRADOR</title>
+    <link rel="icon" type="image/png" href="/imagenes_integrador_front/codoacodo.png">
+</head>
+
+<body class="bg-info">
+    <!-- nav -->
+    <header class="container bg-success">
+        <nav class="navbar navbar-expand-lg bg-white mt-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">CHARLA TED</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- mx auto -->
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">NOVEDADES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">CONTACTO</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="INGRESAR" aria-label="Search">
+                        <button class="btn btn-success" type="submit">BUSQUEDA</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container-fluid mt-5">
+        <!-- principal -->
+        <section class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex flex-column justify-content-center pb-3" >
+                    <h1 class="display-3 mb-3 fw-3">El 7/10 en BSAS  <span class="text-success">CHARLA TED</span> <br> sobre la tecnologia y sus avances </h1>
+                    <p class="h4">Se charlara cobre la constante evolucion. La oferta y demanda laboral.
+                    </p>
+                    <p class="h6">
+                        Tambien se charlara sobre la Inteligencia Artificial y como impacta en el mercado.
+                    </p>
+                    <div class="d-flex gap-3">
+                        <button class="btn btn-success">Quiero ser Orador <i class="fas fa-arrow-right"></i></button>
+                        <button class="btn btn-success">Requisitos</button>
+                    </div>
+                </div>
+                <div class="col-md-6 pb-5 d-none d-lg-block">
+                    <img src="/imagenes_integrador_front/honolulu.jpg" class="img-fluid rounded-pill " alt="">
+                </div>
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="1500">
+                        <img src="/imagenes_integrador_front/hawaii.jpg" class="img-fluid rounded-end-pill" alt="...">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="1500">
+                        <img src="/imagenes_integrador_front/hawaii2.jpg" class="img-fluid rounded-pill" alt="...">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="1500">
+                        <img src="/imagenes_integrador_front/hawaii3.jpg" class="img-fluid rounded-start-pill" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Siguiente</span>
+                    </button>
+                  </div>
+
+            </div>
+        </section>
+
+        <!-- presentadores -->
+        <section class="container">
+
+            <div class="row">
+
+
+                <div class="col-md-4 d-flex flex-column justify-content-">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/imagenes_integrador_front/ada.jpeg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 card title="">Ada</h5>
+                            <p class="card-text"> Sociedad y Actualidad</p>
+                            <a href="https://es.wikipedia.org/wiki/Ada_Lovelace" target="_blank" class="btn btn-primary">Saber mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 d-flex flex-column justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/imagenes_integrador_front/bill.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 card title="">Bill Gates</h5>
+                            <p class="card-text">Tecnoogia e impacto </p>
+                            <a href="https://es.wikipedia.org/wiki/Bill_Gates" target="_blank" class="btn btn-primary">Saber mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 d-flex flex-column justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/imagenes_integrador_front/steve.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 card title="">Steve Jobs</h5>
+                            <p class="card-text">Inteligencia Artifical</p>
+                            <a href="https://es.wikipedia.org/wiki/Steve_Jobs" target="_blank" class="btn btn-primary">Saber mas</a>
+                        </div>
+                    </div>
+                </div>
+               
+
+            </div>
+        </section>
+
+        </section>
+        <section class="py-5 bg-info">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-6">
+                        <div class="card p-5 d-grid gap-2">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Conversemos</h5>
+                                <form action="" class="p-5">
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Correo</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" cols="30"
+                                            rows="10"></textarea>
+                                    </div>
+                                    <input type="submit" value="enviar" class="btn btn-success w-100">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    
+    <!-- redes -->
+    <section>
+        
+        <div class="text-center">
+            <h3 >Visitanos</h3>
+            <a href="https://www.facebook.com" target="_blank">
+                <i class="fa-brands fa-facebook fa-xl"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <i class="fa-brands fa-instagram fa-xl"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <i class="fa-brands fa-twitter fa-xl"></i>
+            </a>
+        </div>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+        
+</body>
+
+</html>
